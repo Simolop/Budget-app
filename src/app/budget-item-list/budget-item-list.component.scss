@@ -17,7 +17,7 @@
         .income-column, .expenses-column {
             display: flex;
             flex-direction: column;
-            flex-basis: 0; 
+            flex-basis: 0; // for the columns to be the same size, regardless of content
             flex-grow: 1;
 
             h1 {
@@ -51,3 +51,4 @@
         }
     }
 }
+
